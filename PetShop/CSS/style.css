@@ -1,0 +1,291 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.textOf{
+    padding: 4px 0px 4px 90px;
+    
+}
+.idioma{
+    padding: 4px 10px 4px 0px;
+}
+.precio{
+   padding: 4px 47px 4px 0px;
+    
+}
+.logoMenu{
+    height: 60px;
+    width: 100%;
+    background: #F0A83E;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 40px;
+        
+}
+.front{
+    font-weight: 700;
+    font-size: 20px;
+}
+.gatoPerro{
+    font-weight: 700;
+    font-size: 20px;
+    color:white;
+}
+.menu ul li {
+       list-style: none;
+       display: inline-block;
+       padding-right: 10px ;
+       color: white;
+}
+.slide{
+    height: 409px;  
+    background-image: url(../IMG/bowlverde.png);
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    
+}
+.texth2{
+    position: absolute;
+    margin-top: 156px;
+    margin-left: 628px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    background: white;  
+}
+.descuento{
+    position: absolute;
+    top:212px; 
+    left:740px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px;
+}
+.btn{
+    position: absolute;
+    top:260px; 
+    left:780px;
+    font-size: 30px;
+    background: #F0A83E;
+    padding: 15px 23px 15px 23px;   
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;   text-align: center;  
+
+}
+.destacados{
+    margin: 20px 95px 78px 95px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.destacados h1{
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+.destacados span{
+    color: #666666;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tarjetas{
+    
+    margin: 49px 95px 0px 95px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.tarjeta{
+    background-color: #FBFAF6;
+    width: 255px;
+    display: flex;
+    margin-right: 10px;
+    flex-direction: column;
+
+    
+}
+.tarjeta .name{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    margin-left: 52px;
+}
+.tarjeta .precio{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: center;
+}
+.tarjeta .imagen{
+    width: 255px;
+    height: 268.86px;
+    top: 720px;
+    left: 95px;
+    
+}
+.formulario{
+    margin: 78px 341px 75px 343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formulario .title{
+   color: #3C2313;
+   font-weight: 700;
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.formulario .ingreso{
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: start;  
+}
+.formulario .ingreso .name{
+    padding: 15px 230.94px 15px 15px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.formulario .ingreso .correo{
+    padding: 15px 188.34px 15px 15px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.formulario .ingreso .tel{
+    padding: 15px 270.7px 15px 15px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin-bottom: 41px;
+}
+.formulario .botones {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+.formulario .botones .reset{
+    background-color: #8A8787;
+    padding: 8px 22px 7px 25px;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+.formulario .botones .send{
+    background-color: #F0A83E;
+    padding: 8px 32px 7px 34px;
+    border-radius: 15px;
+}
+.suscribir{
+    background-color: #F0A83E;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.suscribir .correo{
+    margin-left: 23px;
+}
+.suscribir .suscribite {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.suscribir .ingcorreo{
+    margin-left: 270px;
+    padding: 14px 148px 14px 8px;
+    background-color: #FFFFFF;
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+.suscribir .botn{
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 9px;
+    padding: 12px 11px 10px 11px ;
+    border-radius: 15px;
+    background-color: #3C2313;
+}
+footer{
+    background-color: #3C2313;
+    height: 301px;
+}
+footer .body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 284px;
+}
+.informacion{
+    display:flex;
+    flex-direction: row;
+}
+.informacion .imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 23px;
+    margin-left: 70px;
+    gap:20px;
+}
+.informacion .textos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 25px;
+    color:#FFFFFF;
+    gap:50px;
+}
+.textos .loc{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.textos .mini{
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+.textos .text1{
+    display:flex;
+    flex-direction: column;
+}
+.logofooter{
+    margin-right: 70px;
+}
+footer .derecho{
+    color:#FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+    height: 13px;
+    background-color: #000;
+    text-align: center;
+    margin-bottom: 0px;
+}
